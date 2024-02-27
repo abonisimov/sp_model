@@ -12,7 +12,6 @@ import java.util.concurrent.TimeUnit;
 @SuperBuilder
 @Jacksonized
 public class GameEvent implements Delayed {
-    @NonNull
     private final String universeId;
     @NonNull
     private final String id;
